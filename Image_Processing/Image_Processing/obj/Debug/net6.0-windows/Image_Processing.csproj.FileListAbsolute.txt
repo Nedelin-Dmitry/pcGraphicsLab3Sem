@@ -1,0 +1,17 @@
+C:\Users\HealingPebbles\Desktop\borisov.proj\Image_Processing\Image_Processing\bin\Debug\net6.0-windows\Image_Processing.exe
+C:\Users\HealingPebbles\Desktop\borisov.proj\Image_Processing\Image_Processing\bin\Debug\net6.0-windows\Image_Processing.deps.json
+C:\Users\HealingPebbles\Desktop\borisov.proj\Image_Processing\Image_Processing\bin\Debug\net6.0-windows\Image_Processing.runtimeconfig.json
+C:\Users\HealingPebbles\Desktop\borisov.proj\Image_Processing\Image_Processing\bin\Debug\net6.0-windows\Image_Processing.dll
+C:\Users\HealingPebbles\Desktop\borisov.proj\Image_Processing\Image_Processing\bin\Debug\net6.0-windows\Image_Processing.pdb
+C:\Users\HealingPebbles\Desktop\borisov.proj\Image_Processing\Image_Processing\obj\Debug\net6.0-windows\Image_Processing.csproj.AssemblyReference.cache
+C:\Users\HealingPebbles\Desktop\borisov.proj\Image_Processing\Image_Processing\obj\Debug\net6.0-windows\Image_Processing.Form1.resources
+C:\Users\HealingPebbles\Desktop\borisov.proj\Image_Processing\Image_Processing\obj\Debug\net6.0-windows\Image_Processing.csproj.GenerateResource.cache
+C:\Users\HealingPebbles\Desktop\borisov.proj\Image_Processing\Image_Processing\obj\Debug\net6.0-windows\Image_Processing.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HealingPebbles\Desktop\borisov.proj\Image_Processing\Image_Processing\obj\Debug\net6.0-windows\Image_Processing.AssemblyInfoInputs.cache
+C:\Users\HealingPebbles\Desktop\borisov.proj\Image_Processing\Image_Processing\obj\Debug\net6.0-windows\Image_Processing.AssemblyInfo.cs
+C:\Users\HealingPebbles\Desktop\borisov.proj\Image_Processing\Image_Processing\obj\Debug\net6.0-windows\Image_Processing.csproj.CoreCompileInputs.cache
+C:\Users\HealingPebbles\Desktop\borisov.proj\Image_Processing\Image_Processing\obj\Debug\net6.0-windows\Image_Processing.dll
+C:\Users\HealingPebbles\Desktop\borisov.proj\Image_Processing\Image_Processing\obj\Debug\net6.0-windows\refint\Image_Processing.dll
+C:\Users\HealingPebbles\Desktop\borisov.proj\Image_Processing\Image_Processing\obj\Debug\net6.0-windows\Image_Processing.pdb
+C:\Users\HealingPebbles\Desktop\borisov.proj\Image_Processing\Image_Processing\obj\Debug\net6.0-windows\Image_Processing.genruntimeconfig.cache
+C:\Users\HealingPebbles\Desktop\borisov.proj\Image_Processing\Image_Processing\obj\Debug\net6.0-windows\ref\Image_Processing.dll
