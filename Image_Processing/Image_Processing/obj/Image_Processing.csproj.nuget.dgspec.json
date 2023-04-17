@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HealingPebbles\\Desktop\\borisov.proj\\Image_Processing\\Image_Processing\\Image_Processing.csproj": {}
+    "D:\\A_my_doc\\4Sem\\pcGraphicsLab3Sem-Zeor_one\\pcGraphicsLab3Sem\\Image_Processing\\Image_Processing\\Image_Processing.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HealingPebbles\\Desktop\\borisov.proj\\Image_Processing\\Image_Processing\\Image_Processing.csproj": {
+    "D:\\A_my_doc\\4Sem\\pcGraphicsLab3Sem-Zeor_one\\pcGraphicsLab3Sem\\Image_Processing\\Image_Processing\\Image_Processing.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HealingPebbles\\Desktop\\borisov.proj\\Image_Processing\\Image_Processing\\Image_Processing.csproj",
+        "projectUniqueName": "D:\\A_my_doc\\4Sem\\pcGraphicsLab3Sem-Zeor_one\\pcGraphicsLab3Sem\\Image_Processing\\Image_Processing\\Image_Processing.csproj",
         "projectName": "Image_Processing",
-        "projectPath": "C:\\Users\\HealingPebbles\\Desktop\\borisov.proj\\Image_Processing\\Image_Processing\\Image_Processing.csproj",
-        "packagesPath": "C:\\Users\\HealingPebbles\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HealingPebbles\\Desktop\\borisov.proj\\Image_Processing\\Image_Processing\\obj\\",
+        "projectPath": "D:\\A_my_doc\\4Sem\\pcGraphicsLab3Sem-Zeor_one\\pcGraphicsLab3Sem\\Image_Processing\\Image_Processing\\Image_Processing.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "D:\\A_my_doc\\4Sem\\pcGraphicsLab3Sem-Zeor_one\\pcGraphicsLab3Sem\\Image_Processing\\Image_Processing\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\HealingPebbles\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -61,7 +57,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

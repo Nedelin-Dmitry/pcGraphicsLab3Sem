@@ -1,11 +1,11 @@
 namespace Image_Processing
 {
     using static Filters;
-    public partial class Form1 : Form
+  public partial class Form1 : Form
+  {
+    Bitmap image;
+    public Form1()
     {
-        Bitmap image;
-        public Form1()
-        {
             InitializeComponent();
         }
 
@@ -89,6 +89,115 @@ namespace Image_Processing
         {
             Filters filters = new GaussianFilter();
             backgroundWorker1.RunWorkerAsync(filters);
+        }
+
+        private void grayScaleToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Filters filters = new GrayScale();
+            backgroundWorker1.RunWorkerAsync(filters);
+        }
+
+        private void sepiaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Filters filters = new Sepia();
+            backgroundWorker1.RunWorkerAsync(filters);
+        }
+
+        private void intensityToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Filters filters = new Intensity();
+            backgroundWorker1.RunWorkerAsync(filters);
+        }
+
+        private void sobelToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Filters filters = new Sobel();
+            backgroundWorker1.RunWorkerAsync(filters);
+        }
+
+        private void sharpnessToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Filters filters = new Sharpness();
+            backgroundWorker1.RunWorkerAsync(filters);
+        }
+
+        private void embossingToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Filters filters = new Embossing();
+            backgroundWorker1.RunWorkerAsync(filters);
+        }
+
+        private void grayWorldToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            GlobalFilter grayWorld = new GrayWorld();
+            backgroundWorker1.RunWorkerAsync(grayWorld);
+        }
+
+    private void dlationToolStripMenuItem_Click(object sender, EventArgs e)
+    {
+      Dilation dilation = new Dilation();
+      Bitmap resultImage = dilation.processImage(image);
+      pictureBox1.Image = resultImage;
+      pictureBox1.Refresh();
+      image = resultImage;
+    }
+
+    private void erosionToolStripMenuItem_Click(object sender, EventArgs e)
+    {
+      Erosion erosion = new Erosion();
+      Bitmap resultImage = erosion.processImage(image);
+      pictureBox1.Image = resultImage;
+      pictureBox1.Refresh();
+      image = resultImage;
+    }
+
+    private void openingToolStripMenuItem_Click(object sender, EventArgs e)
+    {
+      Opening open = new Opening();
+      Bitmap resultImage = open.processImage(image);
+      pictureBox1.Image = resultImage;
+      pictureBox1.Refresh();
+      image = resultImage;
+    }
+
+    private void closingToolStripMenuItem_Click(object sender, EventArgs e)
+    {
+      Closing close = new Closing();
+      Bitmap resultImage = close.processImage(image);
+      pictureBox1.Image = resultImage;
+      pictureBox1.Refresh();
+      image = resultImage;
+    }
+
+    private void medianToolStripMenuItem_Click(object sender, EventArgs e)
+    {
+      Filters filter = new Medianfilter();
+      backgroundWorker1.RunWorkerAsync(filter);
+    }
+
+  
+
+    private void secondWaveToolStripMenuItem_Click(object sender, EventArgs e)
+    {
+      Filters filter = new WaweFilterSecond();
+      backgroundWorker1.RunWorkerAsync(filter);
+    }
+
+    private void firstWaveToolStripMenuItem_Click_1(object sender, EventArgs e)
+    {
+      Filters filter = new WaweFilterFirst();
+      backgroundWorker1.RunWorkerAsync(filter);
+    }
+
+        private void grayWorldToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            GlobalFilter filter = new GrayWorld();
+        }
+
+        private void glassToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Filters filter = new GlassFilter();
+            backgroundWorker1.RunWorkerAsync(filter);
         }
     }
 }
